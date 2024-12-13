@@ -1,0 +1,46 @@
+<html>
+    <head>    
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript" src="contact.js"></script>
+    </head>
+    <body>
+        <h1>Contact Me</h1>
+        <div class="flex-container">
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="aboutme.html">About Me</a> |
+                <a href="projects.html">Projects</a>
+            </nav>
+        </div>
+        <br>
+        <main>
+            <section>
+                <h2>Contact Information</h2>
+                <p>Email: <a href="mailto:pchanpro@hotmail.com">Hotmail</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/karen-foley-900130165/" target="_blank">Karen Foley</a></p>
+            </section>
+            <section>
+                <h2>Contact Form</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <span class="error" aria-live="polite"></span>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                    <br>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                    <br>
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset" id="cancel">Cancel</button>
+                </form>
+            </section>
+            <section>
+                <h2>Here is a map of my location:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13819.123339135605!2d-95.1473214062989!3d30.01444888017115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1732152596796!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>
+    </body>
+</html>
