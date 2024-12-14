@@ -5,9 +5,12 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
     color: purple;
+    text-align: center;
 }
 p, ol, li{
     color: #5d4e6d;
+    text-align: center;
+    list-style-type: none;
 }
 nav a:hover {
     color: greenyellow;
@@ -20,5 +23,24 @@ nav a, nav, a{
     text-align: center;
     font-size: 18pt;
     margin: 0px 300px;
+}
+
+img, iframe {
+    padding: inherit;
+    margin:auto;
+    width: 500px;
+    display: block;
+  }
+
+.web {
+    width: 100px;
+}
+
+.fb {
+    width: 100px;
+}
+
+form {
+    text-align: center;
 }
 
